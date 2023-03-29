@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html,body {
+    height: 100%;
+}
+
+/*header do site */
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding: 0 2%;
+    background-color: #000;
+    height: 90px;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.logo {
+    padding: 5px 0;
+}
+
+.logo img {
+    float: left;
+    width: 120px;
+    cursor: pointer;
+}
+
+header nav {
+    float: right;
+    padding: 25px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+   float: left;
+   font-size: 18px;
+   padding: 0 20px;
+   text-transform: uppercase;
+   color: #fafafa;
+   cursor: pointer;
+}
+
+ header nav ul li:hover {
+    border-bottom: 1px solid #b4b4b4;
+}
+
+
+ 
+
+/**/
+
+/*SECTION-1*/
+section.Mosaico {
+    width: 100%;
+    max-width: 1400px;
+    height: 400px;
+    
+}
+.mosaico-single {
+    float: left;
+    width:calc(100% / 6 ) ;
+}
+
+.img-mosaico-single {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-2 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-2:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-3 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-3:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-4 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-4:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-5 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-5:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-6 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-6:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-7 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-7:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-8 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-8:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-9 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-9:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-10 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-10:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-11 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-11:hover {
+    scale: 1.1;
+}
+
+.img-mosaico-single-12 {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #bbb;
+    border: 3px solid #fafafa;
+    background-image: url(imagem/img-12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-mosaico-single-12:hover {
+    scale: 1.1;
+}
+
+/*section-info*/
+
+section.info {
+    width: 100%;
+    max-width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #000;
+
+}
+
+.flex {
+    position: relative;
+    top: 5%;
+}
+
+.box-descrition {
+    float: left;
+    max-width: 600px;
+}
+
+.box-descrition h2 {
+    color: #fafafa;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+.box-descrition p {
+    color: grey;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.info-img {
+    float: right;
+}
+
+.info-img img {
+    width: 600px;
+}
+
+/*SESSAO-3*/
+
+section.sessao-3 {
+    width: 100%;
+    max-width: 1400px;
+    height: 490px;
+    margin: 0 auto;
+    background-color:#333;
+
+}
+
+.text-sessao h2 {
+    color: #fafafa;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+
+
+form.agendar {
+    float: left;
+    margin-top: 1%;
+    padding: 20px 50px;
+}
+
+form.agendar input[type=text] {
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form.agendar input[type=text]:focus {
+    outline: 0;
+}
+
+form.agendar input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form.agendar input[type=email]:focus {
+    outline: 0;
+}
+
+form.agendar input[type=date] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form.agendar input[type=date]:focus {
+    outline: 0;
+}
+
+form.agendar input[type=time] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+form.agendar input[type=time]:focus {
+    outline: 0;
+}
+
+form.agendar select {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc; 
+    margin-top: 5px;
+}
+
+form.agendar select:focus {
+    outline: 0;
+}
+
+
+
+form.agendar input[type=submit] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s;
+}
+
+form.agendar input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+form.agendar p {
+    color: #fafafa;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+.sessao-img {
+    float: right;
+}
+
+.sessao-img img {
+    width: 820px;
+}
+
+/*sessao-4*/
+
+section.sessao-4 {
+    width: 100%;
+    max-width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    background-color:#000;
+    
+}
+
+.flex-3 {
+    position: relative;
+    top: 10%;
+}
+
+.text-sessao-4 {
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.text-sessao-4 h2 {
+ color: #fafafa;
+ font-size: 28px;
+ font-weight: normal;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    margin-left: 10%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .carousel-item h3 {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .carousel-item p {
+    color: #fafafa;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+  
+
+  .carousel-item img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+  }
+  
+  .carousel-navigation {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-10%);
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    color: #fff;
+  }
+  
+  .carousel-prev {
+    margin-right: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-item {
+      flex: 0 0 33.333%;
+      margin-right: 40px;
+    }
+  }
+
+/*FOOTER*/
+
+
+footer {
+    width: 100%;
+    max-width: 1400px;
+    height: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  footer h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  footer p:hover {
+    color: red;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  footer li a:hover {
+    color: #ccc;
+  }
+
+.col-md-2 {
+    float: left;
+    margin-left: 5%;
+}
+
+.col-md-3 {
+    float: left;
+    margin-left: 15%;
+}
+
+.col-md-4 {
+    float: right;
+    margin-right: 20px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.icons i {
+    font-size: 17px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: red;
+}
+
+
+.diretos {
+    margin-left: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #666;
+    padding: 10px;
+}
+
+.nav-bar h2 {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.nav-bar h2:hover {
+    color: red;
+}
+
+.nav-bar a {
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.nav-bar a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
